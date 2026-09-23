@@ -34,14 +34,24 @@ const products =[
 
 // let inStockItems =products.filter(products =>products.inStock == false);
 
-let inStockItems = products.filter(
-    function (product){
-        return productFilter(product)
-    }
-)
+// let inStockItems = products.filter(
+//     function (product){
+//         return productFilter(product)
+//     }
+// )
 
-function productFilter(product){
-    return product.inStock == true ;
+// function productFilter(product){
+//     return product.inStock == true ;
+// }
+
+// console.log(inStockItems);
+
+// function getSum(num1,num2){
+//     return num1+num2;
+// }
+
+let getSum=(num1,num2) =>{
+    return num1+num2;
 }
 
-console.log(inStockItems);
+console.log(getSum(10,20));
