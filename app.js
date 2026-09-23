@@ -50,8 +50,20 @@ const products =[
 //     return num1+num2;
 // }
 
-let getSum=(num1,num2) =>{
-    return num1+num2;
-}
+// let getSum=(num1,num2) =>{
+//     return num1+num2;
+// }
 
-console.log(getSum(10,20));
+// console.log(getSum(10,20));
+
+
+
+// let sample = textValue =>{
+//     return textValue;
+// }
+
+// console.log(sample("hii thilini"));
+
+
+let sample =textValue => textValue;
+console.log(sample("hiii"));
