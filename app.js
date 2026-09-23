@@ -90,8 +90,17 @@
 
 
 
-const letterList =["B","A","D","C"];
+// const letterList =["B","A","D","C"];
 
-let sortArray = letterList.toSorted();
+// let sortArray = letterList.toSorted();
 
-console.log(sortArray);
+// console.log(sortArray);
+
+
+
+
+
+const employeeSalary = [76000,68000,43000,90000];
+let newSalary = employeeSalary.map(salary => salary *2);
+
+console.log(newSalary);
