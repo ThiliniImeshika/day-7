@@ -21,12 +21,12 @@
 // console.log(customerList);
 
 
-const products =[
-    {name:"bun",inStock:true},
-    {name:"car",inStock:false},
-    {name:"bat",inStock:true},
-    {name:"van",inStock:false},
-];
+// const products =[
+//     {name:"bun",inStock:true},
+//     {name:"car",inStock:false},
+//     {name:"bat",inStock:true},
+//     {name:"van",inStock:false},
+// ];
 
 
 
@@ -65,5 +65,33 @@ const products =[
 // console.log(sample("hii thilini"));
 
 
-let sample =textValue => textValue;
-console.log(sample("hiii"));
+// let sample =textValue => textValue;
+// console.log(sample("hiii"));
+
+
+
+
+
+
+
+// const productsList =[
+//     {name:"bun",inStock:true},
+//     {name:"car",inStock:false},
+//     {name:"bat",inStock:true},
+//     {name:"van",inStock:false},
+// ];
+
+// // for (product of productsList){
+// //     console.log(product);
+// // }
+
+
+// productsList.forEach(product =>console.log(product));
+
+
+
+const letterList =["B","A","D","C"];
+
+let sortArray = letterList.toSorted();
+
+console.log(sortArray);
