@@ -100,7 +100,22 @@
 
 
 
-const employeeSalary = [76000,68000,43000,90000];
-let newSalary = employeeSalary.map(salary => salary *2);
+// const employeeSalary = [76000,68000,43000,90000];
+// let newSalary = employeeSalary.map(salary => salary *2);
 
-console.log(newSalary);
+// console.log(newSalary);
+
+
+
+// find -----------------------------------------
+
+const studentList =[
+    {id:"001",name:"kamal"},
+    {id:"002",name:"sunil"},
+    {id:"003",name:"nimal"},
+    {id:"004",name:"Amal"}
+];
+
+let student =studentList.find(student=>student.id==="003");
+
+console.log(student);
