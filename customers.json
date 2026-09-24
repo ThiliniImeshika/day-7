@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"saman",
+        "address":"walana",
+        "salary":75000
+    },
+     {
+        "id":2,
+        "name":"thilini",
+        "address":"moragahahena",
+        "salary":900000
+    },
+     {
+        "id":3,
+        "name":"imeshika",
+        "address":"millewa",
+        "salary":89000
+    },
+     {
+        "id":4,
+        "name":"kumara",
+        "address":"boralle",
+        "salary":87600
+    },
+     {
+        "id":5,
+        "name":"nishala",
+        "address":"uduwa",
+        "salary":98000
+    }
+]

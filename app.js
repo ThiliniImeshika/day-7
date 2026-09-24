@@ -109,13 +109,21 @@
 
 // find -----------------------------------------
 
-const studentList =[
-    {id:"001",name:"kamal"},
-    {id:"002",name:"sunil"},
-    {id:"003",name:"nimal"},
-    {id:"004",name:"Amal"}
-];
+// const studentList =[
+//     {id:"001",name:"kamal"},
+//     {id:"002",name:"sunil"},
+//     {id:"003",name:"nimal"},
+//     {id:"004",name:"Amal"}
+// ];
 
-let student =studentList.find(student=>student.id==="003");
+// let student =studentList.find(student=>student.id==="003");
 
-console.log(student);
+// console.log(student);
+
+
+//json-java script object notation
+
+fetch("customers.json").then(res=>res.json()).then(data=>
+    {console.log(data);
+    }
+)
