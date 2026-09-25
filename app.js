@@ -160,14 +160,13 @@ fetch('https://fakestoreapi.com/products')
                     <div class="card shadow-sm h-100">
                         <img src="${element.image}" class="card-img-top" alt="${element.title}" height="225" style="object-fit: contain; padding: 10px;">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fs-6">${element.title}</h5>
+                            <h5 class="card-title">${element.title}</h5>
                             <p class="card-text text-truncate">${element.description}</p>
                             <div class="d-flex justify-content-between align-items-center mt-auto">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                <div class="">
+                                    <button type="button" class="btn btn-success">Buy Now${element.price}$</button>
                                 </div>
-                                <small class="text-body-secondary">$${element.price}</small>
+                                <small class="text-body-secondary">${element.rating.rate}/${element.rating.count}</small>
                             </div>
                         </div>
                     </div>
